@@ -9,5 +9,5 @@ def reverse_each_word(string)
     end
   end
   #array.collect {|x| x.reverse}
-  phrase
+  array.to_s
 end
