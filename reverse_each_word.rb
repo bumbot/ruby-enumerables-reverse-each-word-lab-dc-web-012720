@@ -3,8 +3,12 @@ def reverse_each_word(string)
   phrase = ""
   
   #array.each_with_index do |word, index|
-  array.collect do |x| 
-    phrase += "#{x.reverse} "
+  array.collect do |x|
+    if 
+      phrase += x.reverse
+    else
+      phrase += "#{x.reverse} "
+    end
     #if array[index] == array[-1]
     #  phrase += word.reverse
     #else
