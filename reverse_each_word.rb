@@ -17,5 +17,6 @@ def reverse_each_word(string)
   phrase = ""
   array.collect {|x| x.reverse}
   
+  array
   
 end
