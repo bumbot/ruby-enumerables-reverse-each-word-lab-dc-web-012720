@@ -1,13 +1,10 @@
 def reverse_each_word(string)
   array = string.split(" ")
+  phrase = ""
   
   array.each do |word|
-    count = 0
-    while count < array.length do
-      array[count] = word.reverse
-      count += 1
-    end
+    phrase += word.reverse
   end
   #array.collect {|x| x.reverse}
-  array.to_s
+  phrase
 end
