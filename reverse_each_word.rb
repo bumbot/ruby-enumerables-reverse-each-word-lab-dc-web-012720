@@ -2,8 +2,8 @@ def reverse_each_word(string)
   array = string.split(" ")
   phrase = ""
   
-  array.each do |word|
-    if word == array[-1]
+  array.each_with_index do |word, index|
+    if array[index] == array[-1]
       phrase += "#{word.reverse}"
     else
       phrase += "#{word.reverse} "
