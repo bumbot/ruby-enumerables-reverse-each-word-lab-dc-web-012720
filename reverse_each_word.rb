@@ -5,6 +5,7 @@ def reverse_each_word(string)
     count = 0
     while count < array.length do
       array[count] = word.reverse
+      count += 1
     end
   end
   #array.collect {|x| x.reverse}
