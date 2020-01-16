@@ -9,6 +9,13 @@ def reverse_each_word(string)
       phrase += "#{word.reverse} "
     end
   end
-  #array.collect {|x| x.reverse}
+  
   phrase
+end
+
+def reverse_each_word(string)
+  phrase = ""
+  array.collect {|x| x.reverse}
+  
+  
 end
