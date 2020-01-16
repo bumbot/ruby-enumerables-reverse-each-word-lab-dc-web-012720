@@ -4,7 +4,7 @@ def reverse_each_word(string)
   
   array.each_with_index do |word, index|
     if array[index] == array[-1]
-      phrase += "#{word.reverse}"
+      phrase += word.reverse
     else
       phrase += "#{word.reverse} "
   end
