@@ -12,11 +12,3 @@ def reverse_each_word(string)
   
   phrase
 end
-
-def reverse_each_word(string)
-  phrase = ""
-  array = string.split(" ").collect {|x| x.reverse}
-  
-  array
-  
-end
